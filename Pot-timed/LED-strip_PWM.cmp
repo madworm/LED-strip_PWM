@@ -1,0 +1,101 @@
+Cmp-Mod V01 Created by PcbNew date = Sat 25 May 2013 12:13:29 AM CEST
+
+BeginCmp
+TimeStamp = /4F76EBA8;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F76EB9D;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EEE81;
+Reference = C3;
+ValeurCmp = 4.7µF;
+IdModule  = MADW__C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FBED0;
+Reference = IC1;
+ValeurCmp = ATTINY13A-MM;
+IdModule  = MADW__MLF10;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EC6BB;
+Reference = JP1;
+ValeurCmp = ISP;
+IdModule  = MADW__PIN_ARRAY_3x2_1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ED7F02;
+Reference = NJ1;
+ValeurCmp = NET-JOIN;
+IdModule  = MADW__SMD-net-noin-0.5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B20DF4;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B20CB2;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /50B51D62;
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F6EEBD3;
+Reference = R2;
+ValeurCmp = 150R;
+IdModule  = MADW__R0603_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FCA8A;
+Reference = RV1;
+ValeurCmp = 50k;
+IdModule  = MADW__TC33X-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FCA99;
+Reference = RV2;
+ValeurCmp = 50k;
+IdModule  = MADW__TC33X-POT;
+EndCmp
+
+BeginCmp
+TimeStamp = /519FBEE4;
+Reference = T1;
+ValeurCmp = AO3400;
+IdModule  = MADW__SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /50ED7AA4;
+Reference = U1;
+ValeurCmp = MCP1804-SOT23-5;
+IdModule  = MADW__SOT23-5;
+EndCmp
+
+EndListe

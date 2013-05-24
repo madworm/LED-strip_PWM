@@ -1,0 +1,85 @@
+update=Sun 19 May 2013 08:10:47 PM CEST
+version=1
+last_client=pcbnew
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
+[eeschema]
+version=1
+LibDir=
+NetFmtName=
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
+[eeschema/libraries]
+LibName1=/home/robert/Arduino/KiCAD/LIBS/my_parts
+LibName2=power
+LibName3=device
+LibName4=transistors
+LibName5=conn
+LibName6=linear
+LibName7=regul
+LibName8=74xx
+LibName9=cmos4000
+LibName10=adc-dac
+LibName11=memory
+LibName12=xilinx
+LibName13=special
+LibName14=microcontrollers
+LibName15=dsp
+LibName16=microchip
+LibName17=analog_switches
+LibName18=motorola
+LibName19=texas
+LibName20=intel
+LibName21=audio
+LibName22=interface
+LibName23=digital-audio
+LibName24=philips
+LibName25=display
+LibName26=cypress
+LibName27=siliconi
+LibName28=opto
+LibName29=atmel
+LibName30=contrib
+LibName31=valves
+LibName32=murata-resonators
+[pcbnew]
+version=1
+LastNetListRead=LED-strip_PWM_IR.net
+UseCmpFile=1
+PadDrill="    0.500000"
+PadDrillOvalY="    0.500000"
+PadSizeH="    1.050000"
+PadSizeV="    1.500000"
+PcbTextSizeV="    1.000000"
+PcbTextSizeH="    1.000000"
+PcbTextThickness="    0.200000"
+ModuleTextSizeV="    0.800000"
+ModuleTextSizeH="    0.800000"
+ModuleTextSizeThickness="    0.200000"
+SolderMaskClearance="    0.000000"
+SolderMaskMinWidth="    0.000000"
+DrawSegmentWidth="    0.200000"
+BoardOutlineThickness="    0.200000"
+ModuleOutlineThickness="    0.200000"
+[pcbnew/libraries]
+LibDir=
+LibName1=sockets
+LibName2=connect
+LibName3=discret
+LibName4=pin_array
+LibName5=divers
+LibName6=libcms
+LibName7=display
+LibName8=led
+LibName9=dip_sockets
+LibName10=pga_sockets
+LibName11=valves
+LibName12=ref-packages
+LibName13=/home/robert/Arduino/KiCAD/LIBS/my_parts
