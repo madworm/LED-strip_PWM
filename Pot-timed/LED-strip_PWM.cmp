@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = Sat 25 May 2013 12:13:29 AM CEST
+Cmp-Mod V01 Created by PcbNew date = Sat 25 May 2013 01:59:57 AM CEST
 
 BeginCmp
 TimeStamp = /4F76EBA8;
@@ -25,7 +25,7 @@ BeginCmp
 TimeStamp = /519FBED0;
 Reference = IC1;
 ValeurCmp = ATTINY13A-MM;
-IdModule  = MADW__MLF10;
+IdModule  = MADW__MLF20;
 EndCmp
 
 BeginCmp
