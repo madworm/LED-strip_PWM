@@ -1,8 +1,13 @@
 
-LED-strip_PWM_IR
-================
+LED-strip_PWM
+=============
 
-LAYOUT FILES: Small high-current PWM controller with IR receiver (ATtiny85 based). 
+LAYOUT FILES: Small LED-strip PWM controller in 2 variants.
+
+a) 2 potentiometers are used as user-input.
+
+b) An RC timer is used to measure power-supply switch-off times as
+   user input (work in progress).
 
 
 ---
