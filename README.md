@@ -2,7 +2,7 @@
 LED-strip_PWM
 =============
 
-LAYOUT FILES: Small LED-strip PWM controller in 2 variants.
+LAYOUT FILES: Tiny LED-strip PWM controller in 2 variants.
 
 a) 2 potentiometers are used as user-input.
 
