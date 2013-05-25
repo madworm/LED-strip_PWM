@@ -1,4 +1,4 @@
-update=Sun 19 May 2013 08:10:47 PM CEST
+update=Sat 25 May 2013 04:25:12 AM CEST
 version=1
 last_client=pcbnew
 [general]
@@ -51,12 +51,12 @@ LibName31=valves
 LibName32=murata-resonators
 [pcbnew]
 version=1
-LastNetListRead=LED-strip_PWM_IR.net
+LastNetListRead=
 UseCmpFile=1
-PadDrill="    0.500000"
-PadDrillOvalY="    0.500000"
-PadSizeH="    1.050000"
-PadSizeV="    1.500000"
+PadDrill="    0.000000"
+PadDrillOvalY="    0.000000"
+PadSizeH="    1.198880"
+PadSizeV="    1.198880"
 PcbTextSizeV="    1.000000"
 PcbTextSizeH="    1.000000"
 PcbTextThickness="    0.200000"

@@ -356,7 +356,7 @@ Text Notes 4450 2750 0    39   ~ 0
 Text Label 950  1200 2    60   ~ 0
 POT1
 Text Notes 2700 775  0    39   ~ 0
-(MLF-20)
+(MLF-10)
 Text Label 950  1300 2    60   ~ 0
 POT2
 Wire Wire Line
@@ -506,7 +506,7 @@ F 1 "50k" H 6450 2550 50  0000 C CNN
 F 2 "~" H 6450 2550 60  0000 C CNN
 F 3 "~" H 6450 2550 60  0000 C CNN
 	1    6450 2550
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L POT RV2
@@ -559,14 +559,12 @@ Wire Wire Line
 Wire Wire Line
 	6800 2850 6800 2900
 Connection ~ 6800 2850
-Text Label 6250 2550 2    60   ~ 0
+Text Label 6650 2550 3    60   ~ 0
 POT1
-Text Label 6900 2550 2    60   ~ 0
+Text Label 6900 2550 1    60   ~ 0
 POT2
 Wire Wire Line
 	6900 2550 6950 2550
-Wire Wire Line
-	6250 2550 6300 2550
 Wire Notes Line
 	6000 2000 6000 3000
 Wire Notes Line
@@ -576,14 +574,16 @@ Wire Notes Line
 Wire Notes Line
 	7300 2000 6000 2000
 $Comp
-L ATTINY13-M IC1
-U 1 1 519FFF57
+L ATTINY13A-MM IC1
+U 1 1 51A021E9
 P 1400 800
 F 0 "IC1" H 1500 850 60  0000 C CNN
-F 1 "ATTINY13-M" H 2700 50  60  0000 C CNN
-F 2 "QFN/MLF20" H 1700 50  60  0001 C CNN
+F 1 "ATTINY13A-MM" H 2700 50  60  0000 C CNN
+F 2 "QFN/MLF10" H 1700 50  60  0001 C CNN
 F 3 "~" H 1400 800 60  0000 C CNN
 	1    1400 800 
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	6600 2550 6650 2550
 $EndSCHEMATC
