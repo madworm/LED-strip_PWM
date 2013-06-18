@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-06-15 BZR 4214)-testing date = Sun 16 Jun 2013 01:53:44 AM CEST
+Cmp-Mod V01 Created by CvPcb (2013-06-07 BZR 4197)-testing date = Fri 07 Jun 2013 05:11:59 PM CEST
 
 BeginCmp
 TimeStamp = /4F76EBA8;
@@ -22,16 +22,16 @@ IdModule  = MADW__C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /51BCF5E4;
+TimeStamp = /51B1F1AE;
 Reference = IC1;
-ValeurCmp = ATTINY10-TS;
-IdModule  = MADW__SOT23-6;
+ValeurCmp = MADW__ATTINY13-MM;
+IdModule  = MADW__MLF10;
 EndCmp
 
 BeginCmp
-TimeStamp = /51BCFCE5;
+TimeStamp = /4F6EC6BB;
 Reference = JP1;
-ValeurCmp = MADW__AVR_TPI;
+ValeurCmp = ISP;
 IdModule  = MADW__PIN_ARRAY_3x2_1.27mm;
 EndCmp
 
