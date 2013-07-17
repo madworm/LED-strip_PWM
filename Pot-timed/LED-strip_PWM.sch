@@ -38,8 +38,8 @@ $Descr User 8268 5906
 encoding utf-8
 Sheet 1 1
 Title "LED-strip_PWM"
-Date "24 May 2013"
-Rev "0.1"
+Date "18 Jul 2013"
+Rev "0.12"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -340,7 +340,7 @@ F 3 "~" H 4550 2550 60  0000 C CNN
 	1    4550 2550
 	1    0    0    -1  
 $EndComp
-Text Notes 4450 2750 0    39   ~ 0
+Text Notes 4450 2800 0    39   ~ 0
 (SOT23)
 Text Label 950  1200 2    60   ~ 0
 POT1
@@ -590,4 +590,6 @@ Wire Wire Line
 Wire Wire Line
 	3250 1350 3350 1350
 Connection ~ 3250 1350
+Text Notes 4250 2750 0    39   ~ 0
+(IRLML6344TRPBF)
 $EndSCHEMATC

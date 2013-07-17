@@ -1,4 +1,4 @@
-(kicad_pcb (version 3) (host pcbnew "(2013-07-05 BZR 4237)-testing")
+(kicad_pcb (version 3) (host pcbnew "(2013-07-14 BZR 4242)-testing")
 
   (general
     (links 31)
@@ -16,7 +16,7 @@
   (title_block
     (title LED-strip_PWM)
     (date "24 May 2013")
-    (rev 0.12)
+    (rev 0.12.a)
     (company "2012 - blog.spitzenpfeil.org")
   )
 
@@ -1018,7 +1018,7 @@
     (arrow2a (pts (xy 76 59.3) (xy 77.126504 59.886421)))
     (arrow2b (pts (xy 76 59.3) (xy 77.126504 58.713579)))
   )
-  (gr_text "V0.12\nPOT PWM controller" (at 91 53.2) (layer B.SilkS) (tstamp 51A53A8A)
+  (gr_text "V0.12.a\nPOT PWM controller" (at 91 53.2) (layer B.SilkS) (tstamp 51A53A8A)
     (effects (font (size 1 1) (thickness 0.2032)) (justify mirror))
   )
   (gr_text "2013 - blog.spitzenpfeil.org" (at 91 56.6) (layer B.SilkS) (tstamp 51A53AD4)
