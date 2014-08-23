@@ -1,0 +1,13 @@
+
+Bill of materials:
+------------------
+
+C1, C2		100nF, 50V			0805
+C3		4.7uF, 10V			0805
+IC1		ATTINY13-MM			DFN10
+R1		100k				0603
+R2		150R				0603
+RV1, RV2	Bourns, TC33X, ~10k
+T1		AO3400 / IRLML6344TRPBF		SOT23
+U1		MCP1804, 5V			SOT23-5
+
