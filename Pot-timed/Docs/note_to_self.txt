@@ -1,0 +1,5 @@
+
+For the next revision (should there be one):
+
+* Replace MCP1804 with AP2204K or equivalent
+
