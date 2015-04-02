@@ -1,45 +1,14 @@
 EESchema Schematic File Version 2
 LIBS:my_parts
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:murata-resonators
 LIBS:LED-strip_PWM-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr User 8268 5906
 encoding utf-8
 Sheet 1 1
 Title "LED-strip_PWM"
-Date "18 Jul 2013"
-Rev "0.12"
+Date "Fri 03 Apr 2015"
+Rev "0.13"
 Comp "2013 - blog.spitzenpfeil.org"
 Comment1 ""
 Comment2 ""
@@ -264,17 +233,6 @@ F 3 "" H 3950 2450 60  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L MADW__MCP1804-SOT23-5 U1
-U 1 1 50ED7AA4
-P 2300 2300
-F 0 "U1" H 2300 2600 60  0000 C CNN
-F 1 "MCP1804-SOT23-5" H 2350 2700 60  0000 C CNN
-F 2 "" H 2300 2300 60  0001 C CNN
-F 3 "" H 2300 2300 60  0001 C CNN
-	1    2300 2300
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR011
 U 1 1 50B21224
 P 2800 2750
@@ -400,13 +358,9 @@ Wire Wire Line
 	4500 2200 4500 2550
 Wire Wire Line
 	5650 850  5650 1000
-Wire Wire Line
-	1800 2300 1850 2300
 Connection ~ 1800 2150
 Wire Wire Line
-	1800 2150 1800 2300
-Wire Wire Line
-	2750 2300 2800 2300
+	1800 2150 1800 2350
 Wire Wire Line
 	2600 2700 3050 2700
 Wire Wire Line
@@ -445,8 +399,6 @@ Wire Wire Line
 	1800 2700 1800 2500
 Wire Wire Line
 	1800 2500 2800 2500
-Wire Wire Line
-	2800 2500 2800 2300
 Connection ~ 1800 2700
 Wire Wire Line
 	2800 2700 2800 2750
@@ -592,4 +544,23 @@ Wire Wire Line
 Connection ~ 3250 1350
 Text Notes 4250 2750 0    39   ~ 0
 (IRLML6344TRPBF)
+$Comp
+L MADW__AP2204K-SOT23-5 U1
+U 1 1 551DC2CC
+P 2300 2250
+F 0 "U1" H 2300 2450 60  0000 C CNN
+F 1 "AP2204K-3.3TRG1" H 2300 2550 60  0000 C CNN
+F 2 "my_parts:MADW__SOT23-5" H 2300 2200 60  0001 C CNN
+F 3 "" H 2300 2200 60  0000 C CNN
+F 4 "[TS5205CX533]" H 2300 2050 39  0000 C CNN "Alternative part"
+	1    2300 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 2350 1850 2350
+NoConn ~ 2750 2250
+Wire Wire Line
+	2750 2350 2800 2350
+Wire Wire Line
+	2800 2350 2800 2500
 $EndSCHEMATC
